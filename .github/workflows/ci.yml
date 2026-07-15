@@ -5,9 +5,9 @@ name: CI/CD Pipeline
 
 on:
   push:
-    branches: [ main ]
+    branches: [ Main ]
   pull_request:
-    branches: [ main ]
+    branches: [ Main ]
 
 # Biến dùng chung cho toàn workflow
 env:
