@@ -40,7 +40,7 @@ jobs:
     needs: test # CHỈ chạy khi job test đã PASS
     
     # Chỉ build khi push lên main (không build cho PR):
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/Main'
     
     # Cấp quyền cho GITHUB_TOKEN (token tự sinh cho mỗi lần chạy):
     permissions:
